@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ballfall"
+version = "0.1.0"
+description = "An AR game with a projector and a whiteboard"
+authors = [
+    "Gleb Mikloshevich glebmikloshevich@gmail.com",
+    "Nikita Troshchencko nitrix38r@gmail.com"]
+
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.7.0.72"
+scikit-image = "^0.20.0"
+numpy = "^1.24.2"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
